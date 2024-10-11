@@ -1,0 +1,25 @@
+.top-header {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px 20px; 
+
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+}
+
+.icon {
+  display: flex;
+  gap: 15px; 
+}
+
+.icon{
+  border: none;
+  cursor: pointer;
+  font-size: 27px; 
+  color: #000000; 
+  transition: color 0.3s; 
+}
+
+.icon:hover {
+  color: #007bff; 
+}

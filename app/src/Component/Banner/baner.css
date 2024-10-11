@@ -1,0 +1,68 @@
+/* styles.css */
+.promotion-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  color: white;
+  border-radius: 10px;
+  
+  margin: 0 50px;
+  margin-top: 90px;
+}
+
+.promotion-content {
+  max-width: 50%;
+}
+.promotion-content h1{
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+h3 {
+  color: #47cd47;
+}
+
+ 
+
+.countdown {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.timer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+}
+
+.buy-btn {
+  background-color: #457845;
+  color: white;
+  border: none;
+  padding: 6px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-image img {
+  max-width: 600px;
+  box-shadow: 5px 5px 5px 5px white;
+  border-radius: 10px;
+  height: 250px;
+    border-radius: 10px; /* Optional, adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
