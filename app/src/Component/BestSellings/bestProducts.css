@@ -1,4 +1,4 @@
-/* src/components/Products.css */
+
 
 .product-list{
 
@@ -23,6 +23,9 @@
   gap: 20px;
   margin: 0 20px;
 }
+.product-card h3{
+color: black;
+}
 
 .icons {
   position: absolute;
@@ -34,4 +37,6 @@
 
 .image-section img{
   height: 200px;
+  display: block;
+  margin: 0 auto;
 }

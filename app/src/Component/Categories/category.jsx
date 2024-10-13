@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './category.css'; 
 import { FaMobileAlt, FaLaptop, FaCamera, FaHeadphones, FaGamepad} from 'react-icons/fa';  
+import { BsSmartwatch } from "react-icons/bs";
 
 const BrowseByCategory = () => {
   const [selectedCategory, setSelectedCategory] = useState('Camera');
@@ -8,7 +9,7 @@ const BrowseByCategory = () => {
   const categories = [
     { id: 1, name: 'Phones', icon: <FaMobileAlt /> },
     { id: 2, name: 'Computers', icon: <FaLaptop /> },
-    // { id: 3, name: 'SmartWatch', icon: <FaWatch /> },
+    { id: 3, name: 'SmartWatch', icon: <BsSmartwatch/>},
     { id: 4, name: 'Camera', icon: <FaCamera /> },
     { id: 5, name: 'HeadPhones', icon: <FaHeadphones /> },
     { id: 6, name: 'Gaming', icon: <FaGamepad /> },

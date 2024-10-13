@@ -1,4 +1,3 @@
-/* styles.css */
 .promotion-banner {
   display: flex;
   justify-content: space-between;
@@ -7,7 +6,6 @@
   background-color: #000;
   color: white;
   border-radius: 10px;
-  
   margin: 0 50px;
   margin-top: 90px;
 }
@@ -15,7 +13,8 @@
 .promotion-content {
   max-width: 50%;
 }
-.promotion-content h1{
+
+.promotion-content h1 {
   font-size: 2.5rem;
   margin: 10px 0;
 }
@@ -23,8 +22,6 @@
 h3 {
   color: #47cd47;
 }
-
- 
 
 .countdown {
   display: flex;
@@ -42,10 +39,9 @@ h3 {
   color: black;
   font-weight: bold;
   padding: 10px;
-  border-radius: 10px;
-  width:80px;
-  height:80px;
   border-radius: 50%;
+  width: 80px;
+  height: 80px;
 }
 
 .buy-btn {
@@ -58,11 +54,21 @@ h3 {
   border-radius: 5px;
 }
 
-.product-image img {
-  max-width: 600px;
-  box-shadow: 5px 5px 5px 5px white;
-  border-radius: 10px;
+.product-imag img {
+  width: 400px;
   height: 250px;
-    border-radius: 10px; /* Optional, adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
+
+@media(max-width:950px){
+  .promotion-content{
+    display: none;
+  }
+  .promotion-banner {
+    display: flex;
+    justify-content: center;
+  
+ 
+ 
+}}
+
+

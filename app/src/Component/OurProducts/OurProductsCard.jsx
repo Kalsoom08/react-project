@@ -1,11 +1,11 @@
-// src/components/ProductCard.js
-
 import React from 'react';
 import { FaHeart, FaEye, FaStar, FaShoppingCart } from 'react-icons/fa';
+import '../OurProducts/productlist.css'
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="product-card">
+    <div className='prod'>
+    <div className="product-card" bg-red-500>
       <div className="product-image">
         <img src={product.image} alt={product.name} />
       </div>
@@ -24,6 +24,7 @@ const ProductCard = ({ product }) => {
       <button className="add-to-cart">
         <FaShoppingCart /> 
       </button>
+    </div>
     </div>
   );
 };

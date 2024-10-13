@@ -1,0 +1,93 @@
+
+.new-arrivals {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+.featured {
+  display: grid;
+  grid-gap: 20px;
+}
+
+
+.card {
+  border: 1px solid #e5e5e5;
+  background-color: black;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+}
+.card img{
+  padding-top: 40px;
+  height: 175px;
+}
+.card.large {
+ 
+  grid-column: span ;  
+  height: 550px;  
+}
+.card.large img{
+  height: 500px;
+  justify-self: center;
+  margin-left: 90px;
+
+}
+
+.card-img {
+  width: 70%;
+
+}
+
+.card-content {
+  margin-top: -60px;
+  padding: 15px;
+  flex: 1;
+
+}
+
+.card-content h3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377));
+  font-size: 18px;
+  margin-bottom: 05px;
+  color: #ffffff;
+}
+
+.card-content p {
+  background: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377));
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+.shop-now {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.shop-now:hover {
+  text-decoration: underline;
+}
+
+@media(min-width: 790px) {
+  .featured {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .card.large {
+    grid-column: span 2;
+    grid-row: span 2;  
+  }
+  
+}

@@ -1,0 +1,91 @@
+.signup-container {
+  display: flex;
+  height: 100vh;
+}
+
+.signup-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.signup-left img {
+  max-width: 90%;
+ height: 550px;
+}
+
+.signup-right {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.signup-right h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.signup-right p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.signup-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-right input {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.create-account-btn {
+  background-color: #b02c2c;
+  display: block;
+  margin: 0 auto;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.google-signup-btn {
+  background-color: white;
+  border: 1px solid #ddd;
+  color: #555;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.google-signup-btn i {
+  margin-right: 10px;
+}
+
+.login-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}

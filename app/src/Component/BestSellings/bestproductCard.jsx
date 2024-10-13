@@ -1,4 +1,3 @@
-// ProductCard.js
 import React from 'react';
 import { AiOutlineHeart, AiOutlineEye } from 'react-icons/ai';
 

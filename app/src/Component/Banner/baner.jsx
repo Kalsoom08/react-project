@@ -2,10 +2,10 @@
 import React from 'react';
 import CountdownTimer from './counter';
 import '../Banner/baner.css'
-import img from '../../assets/img1.jpg'
+import img from '../../assets/img1.png'
 
 const PromotionBanner = () => {
-    const targetDate = new Date().getTime() + 5 * 24 * 60 * 60 * 1000; // 5 days from now
+    const targetDate = new Date().getTime() + 5 * 24 * 60 * 60 * 1000; 
 
     return (
         <div className="promotion-banner">
@@ -15,8 +15,8 @@ const PromotionBanner = () => {
                 <CountdownTimer targetDate={targetDate} />
                 <button className="buy-btn">Buy Now!</button>
             </div>
-            <div className="product-image">
-                <img src={img} alt="Product" /> {/* Replace with the real product image */}
+            <div className="product-imag">
+                <img src={img} alt="Product" /> 
             </div>
         </div>
     );
